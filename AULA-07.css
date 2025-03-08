@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+
+/* Estilizando o Header */
+header {
+padding: 25px;/* esponsavel pelo preenchimento interno/tamanho */
+background-color: #edb886; /* cor de fundo*/
+display: flex;/* Tornado os itens flex/lado a lado */
+justify-content: center; /* Justificando o conteúdo ao centro*/
+gap: 40px; /* Espaçamento entre os elementos */
+align-items: center; /* responsavel por alinhar verticalmente as lestras*/
+}
+
+/* Estilizando o Icone */
+header i{
+    color: white;/* cor do icone */
+    font-size: 60px /* tamanho do icone */
+
+}
+/* Estilizando o título */
+header h1{ 
+    color: white;/* cor da letra */
+    font-size: 40px;/* tamanho da letra */
+    font-family: "Roboto Slab", serif;/* Tipo da fonte*/
+}
+/* Fim do cabeçalho */
+
+/* Inicio Primera Sessão*/
+.stn1{
+    padding: 160px;/* Preenchimento/tamanho */
+    background-color: #f1c691;/* Cor de fundo*/
+    display: flex;/* Tornado os itens flex/lado a lado */
+    justify-content: center;/* Justificando o conteúdo ao centro*/
+    align-items: center;/* responsavel por alinhar verticalmente as lestras*/
+    gap: 60px;/* Espaçamento entre os elementos */
+    
+}
+
+.stn1 span{
+font-size: 40px;/* tamanho da letra */
+color:#c57512 ;/* cor da letra */
+}
+
+
+.stn1 img {
+    width: 600px;/* Largura da imagem*/
+    height: 400px; /*Altura da imagem*/
+}
+
+.stn1 p {
+    color: white/* cor da letra */
+    font-size: 30px;/* tamanho da letra */
+    font-family: "Roboto Slab", serif;/* Tipo da fonte*/
+}
+
+/*Inicio da segunda Sessão*/
+.stn2 {
+    padding: 160px;
+    background-color:#ffe498 ;
+    display: flex;/* Tornado os itens flex/lado a lado */
+    justify-content: center;/* Justificando o conteúdo ao centro*/
+    align-items: center;/* responsavel por alinhar verticalmente as lestras*/
+    gap: 30px;/* Espaçamento entre os elementos */
+    flex-direction: column; /*Deixa os intens retos numa coluna*/
+
+}
+
+.stn2 i{
+font-size: 30px; /*tamanho do Icone*/
+color: #f78a06;/* cor do Icone */
+
+}
+
+.stn2 p {
+    color: #e78813;/* cor da letra */
+    font-size: 30px;/* tamanho da letra */
+    font-family: "Roboto Slab", serif;/* Tipo da fonte*/
+}
+/*Inicio da Terceira Sessão*/
+.stn3 {
+padding: 300px;
+background-image: url(imagens/Abre-PERFIL-BRASIL-24.jpg);//*UP IMG*/
+background-position: center;/*Posição da imagem*/
+background-size: cover;/*Preenchimento da Imagem*/
+background-repeat: no-repeat;/*Desabilitando repetião da imagem*/
+background-attachment: fixed;/*Fixação da imagem*/
+display: flex;/* Tornado os itens flex/lado a lado */
+justify-content: center;/* Justificando o conteúdo ao centro*/
+
+}
+
+.stn3 button{
+        padding: 10px;/* Preenchimento/tamanho */
+        background-color: #edb886; /* cor de fundo*/
+        color: white;/* cor da letra */
+        border-radius: 10px;/*Arredondando as bordas*/
+}
+
